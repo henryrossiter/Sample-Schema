@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/YOUR-ACTIVITY-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "Sample Activity 1",
+  "skos:prefLabel": "Sample Activity 1",
+  "skos:altLabel": "Sample Activity 1",
+  "schema:description": "Sample Activity 1 Description",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "Sample Activity 1 Preamble",
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "ui": {
+    "order": [
+      "Item 1"
+    ],
+    "shuffle": false,
+    "visibility": {
+      "Item 1": true
+    },
+    "allow": []
+  }
+}

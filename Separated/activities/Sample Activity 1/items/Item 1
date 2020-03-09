@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/YOUR-ACTIVITY-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "Item 1",
+  "skos:prefLabel": "Item 1",
+  "skos:altLabel": "Item 1",
+  "schema:description": "Item 1 Description",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "question": "Item 1 Question",
+  "ui": {
+    "inputType": "radio"
+  },
+  "responseOptions": {
+    "@type": "xsd:anyURI",
+    "multipleChoice": false,
+    "schema:minValue": 0,
+    "schema:maxValue": 0,
+    "choices": [
+      {
+        "@type": "schema:Boolean",
+        "schema:name": "Option 1",
+        "schema:value": 0
+      }
+    ]
+  }
+}

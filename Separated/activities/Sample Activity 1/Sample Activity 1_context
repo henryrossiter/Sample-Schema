@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "Sample Activity 1": "https://raw.githubusercontent.com/YOUR-PATH-TO-ITEM-FOLDER",
+    "Item 1": {
+      "@id": "Sample Activity 1:Item 1",
+      "@type": "@id"
+    }
+  }
+}
