@@ -1,0 +1,80 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "SampleActivity1": {
+      {
+        "@context": [
+          "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+          "Item 1": {
+            "@type": "reproschema:Activity",
+            "@id": "SampleActivity1",
+            "skos:prefLabel": "SampleActivity1",
+            "skos:altLabel": "SampleActivity1",
+            "schema:description": "SampleActivity1 Description",
+            "schema:schemaVersion": "0.0.1",
+            "schema:version": "0.0.1",
+            "preamble": "SampleActivity1 Preamble",
+            "scoringLogic": {},
+            "repronim:timeUnit": "yearmonthdate",
+            "ui": {
+              "order": [
+                "Item 1"
+              ],
+              "shuffle": false,
+              "visibility": {
+                "Item 1": true
+              },
+              "allow": []
+            }
+          }
+        ],
+        "@type": "reproschema:Activity",
+        "@id": "SampleActivity1",
+        "skos:prefLabel": "SampleActivity1",
+        "skos:altLabel": "SampleActivity1",
+        "schema:description": "SampleActivity1 Description",
+        "schema:schemaVersion": "0.0.1",
+        "schema:version": "0.0.1",
+        "preamble": "SampleActivity1 Preamble",
+        "scoringLogic": {},
+        "repronim:timeUnit": "yearmonthdate",
+        "ui": {
+          "order": [
+            "Item 1"
+          ],
+          "shuffle": false,
+          "visibility": {
+            "Item 1": true
+          },
+          "allow": []
+        }
+      }
+    }
+  ],
+  "@type": "reproschema:Protocol",
+  "@id": "Sample Protocol_schema",
+  "skos:prefLabel": "Sample Protocol",
+  "skos:altLabel": "Sample Protocol",
+  "schema:description": "Sample Protocol Description",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "schema:about": "Sample Protocol Description",
+  "variableMap": [
+    {
+      "variableName": "SampleActivity1",
+      "isAbout": "SampleActivity1"
+    }
+  ],
+  "ui": {
+    "order": [
+      "SampleActivity1"
+    ],
+    "shuffle": false,
+    "activity_display_name": {
+      "SampleActivity1": "SampleActivity1"
+    },
+    "visibility": {
+      "SampleActivity1": true
+    }
+  }
+}

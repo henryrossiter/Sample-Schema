@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-    "https://raw.githubusercontent.com/YOUR-PROTOCOL-CONTEXT-FILE"
+    "https://raw.githubusercontent.com/henryrossiter/Sample-Schema/master/Separated/protocols/context"
   ],
   "@type": "reproschema:Protocol",
   "@id": "Sample Protocol_schema",
@@ -13,20 +13,20 @@
   "schema:about": "Sample Protocol Description",
   "variableMap": [
     {
-      "variableName": "Sample Activity 1",
-      "isAbout": "Sample Activity 1"
+      "variableName": "SampleActivity1",
+      "isAbout": "SampleActivity1"
     }
   ],
   "ui": {
     "order": [
-      "Sample Activity 1"
+      "SampleActivity1"
     ],
     "shuffle": false,
     "activity_display_name": {
-      "Sample Activity 1": "Sample Activity 1"
+      "SampleActivity1": "SampleActivity1"
     },
     "visibility": {
-      "Sample Activity 1": true
+      "SampleActivity1": true
     }
   }
 }

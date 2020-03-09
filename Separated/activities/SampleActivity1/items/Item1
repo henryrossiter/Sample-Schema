@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-    "https://raw.githubusercontent.com/YOUR-ACTIVITY-CONTEXT-FILE"
+    "https://raw.githubusercontent.com/henryrossiter/Sample-Schema/master/Separated/activities/SampleActivity1/SampleActivity1_context"
   ],
   "@type": "reproschema:Field",
   "@id": "Item 1",
