@@ -6,27 +6,29 @@
           "@context": [
             "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
             {
-              "Item 1": {
-                "@type": "reproschema:Activity",
-                "@id": "SampleActivity1",
-                "skos:prefLabel": "SampleActivity1",
-                "skos:altLabel": "SampleActivity1",
-                "schema:description": "SampleActivity1 Description",
-                "schema:schemaVersion": "0.0.1",
-                "schema:version": "0.0.1",
-                "preamble": "SampleActivity1 Preamble",
-                "scoringLogic": {},
-                "repronim:timeUnit": "yearmonthdate",
-                "ui": {
-                  "order": [
-                    "Item 1"
-                  ],
-                  "shuffle": false,
-                  "visibility": {
-                    "Item 1": true
-                  },
-                  "allow": []
-                }
+              "@type": "reproschema:Field",
+              "@id": "Item 1",
+              "skos:prefLabel": "Item 1",
+              "skos:altLabel": "Item 1",
+              "schema:description": "Item 1 Description",
+              "schema:schemaVersion": "0.0.1",
+              "schema:version": "0.0.1",
+              "question": "Item 1 Question",
+              "ui": {
+                "inputType": "radio"
+              },
+              "responseOptions": {
+                "@type": "xsd:anyURI",
+                "multipleChoice": false,
+                "schema:minValue": 0,
+                "schema:maxValue": 0,
+                "choices": [
+                  {
+                    "@type": "schema:Boolean",
+                    "schema:name": "Option 1",
+                    "schema:value": 0
+                  }
+                ]
               }
             }
           ],
